@@ -1,6 +1,6 @@
 import { Column, Entity, Exclusion, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 import { TaskStatus } from "./task-status.enum";
-import { User } from "src/auth/user.entity";
+import { User } from "../auth/user.entity";
 import { ExclusionMetadata } from "typeorm/metadata/ExclusionMetadata";
 
 @Entity()
